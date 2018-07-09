@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="css/resre.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<a href="add.html?type=add" id="add">新增</a>
+<ul class="list-box" id="list-box">
+    <script id="list-template" type="text/html">
+        {{each list as item}}
+        <li class="item" id="{{item.id}}">
+            <span>{{item.name}}</span>
+            <button type="button" class="del" data-id="{{item.id}}">删除</button>
+            <button type="button" class="edit" data-id="{{item.id}}">编辑</button>
+        </li>
+        {{/each}}
+    </script>
+</ul>
+</body>
+<script src="plugins/zepto.min.js"></script>
+<script src="plugins/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/index.js"></script>
+</html>

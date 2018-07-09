@@ -1,0 +1,48 @@
+ #add{
+     display: inline-block;
+     height: 25px;
+     line-height: 25px;
+     padding:  0 15px;
+     background-color: #5bc0de;
+     color: white;
+     text-decoration: none;
+     float: right;
+     clear: both;
+     margin: 15px 15px 15px 0;
+ }
+
+.list-box{
+    width: 100%;
+    margin-top: 20px;
+    clear: both;
+}
+.list-box .item{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-indent: 10px;
+    border-bottom: 1px solid #ececec;
+    font-size: 14px;
+    color: #313131;
+}
+.list-box .item button{
+    height: 20px;
+    padding: 0 10px;
+    font-size: 12px;
+    border: none;
+    background-color:white;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    text-decoration: underline;
+    color: #959595;
+}
+.list-box .item button:hover{
+    cursor: pointer;
+}
+.list-box .item button:active{
+    border: none;
+}
+.del{
+    color: red!important;
+}

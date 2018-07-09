@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0,user-scalable=0"/>
+    <title>详情</title>
+    <link rel="stylesheet" href="css/detailInfo.css">
+</head>
+<body>
+<div id="info-box">
+    <script type="text/html" id="info-template">
+        <div id="title">用户信息</div>
+        <div class="item">
+            <span class="key">姓名：</span>
+            <span class="value">{{name}}</span>
+        </div>
+        <div class="item">
+            <span class="key">年龄：</span>
+            <span class="value">{{age}}</span>
+        </div>
+        <div class="item">
+            <span class="key">性别：</span>
+            <span class="value">{{sex}}</span>
+        </div>
+        <div class="item">
+            <span class="key">地址：</span>
+            <span class="value">{{address}}</span>
+        </div>
+    </script>
+</div>
+</body>
+<script src="plugins/zepto.min.js"></script>
+<script src="plugins/template.js"></script>
+<script src="js/common.js"></script>
+<script src="js/detailInfo.js"></script>
+</html>
